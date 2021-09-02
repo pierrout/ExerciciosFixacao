@@ -1,3 +1,4 @@
+## jogo ping pong checar
 level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
 length = 500/level
 
