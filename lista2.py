@@ -56,7 +56,33 @@ x = 4
 while (x <= 20):
     if (x%2==0):
         lista.append(x)
-        x = x + 1
+    x = x+1
 print(lista)
-#checar
-    
+
+# Exercício 8 - Transforme o resultado desta função range em uma lista: range(5, 45, 2)
+nums = range(5, 45, 2)
+# função list para converter
+list(range(5, 45, 2))
+
+# Exercício 9 - Faça a correção dos erros no código abaixo e execute o programa. Dica: são 3 erros.
+temperatura = float(input('Qual a temperatura? '))
+if temperatura > 30:
+    print('Vista roupas leves.')
+else:
+    print('Busque seus casacos.')
+
+# Exercício 10 - Faça um programa que conte quantas vezes a letra "r" aparece na frase abaixo. Use um placeholder na 
+# sua instrução de impressão
+
+# “É melhor, muito melhor, contentar-se com a realidade; se ela não é tão brilhante como os sonhos, tem pelo menos a 
+# vantagem de existir.” (Machado de Assis)
+
+frase = "É melhor, muito melhor, contentar-se com a realidade; se ela não é tão brilhante como os sonhos, tem pelo menos a vantagem de existir." 
+
+cont = 0
+
+for caracter in frase:
+  if caracter == 'r':
+    cont += 1
+print (cont)
+
