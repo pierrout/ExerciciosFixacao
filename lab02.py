@@ -19,6 +19,10 @@ elif(operacaoDesejada == 3):
   resultado = primeiroNumero*segundoNumero
   print(resultado)
 
-else: 
+elif(operacaoDesejada == 4): 
   resultado = primeiroNumero/segundoNumero
   print(resultado)
+
+else:
+  print("erro!!!")
+
